@@ -15,18 +15,18 @@ export default function ArtPage() {
         </Col>
       </Row>
       <Row className='mt-3'>
-        <Col>
+        <Col className='d-flex justify-content-center'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/5fNKMmWj1TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Col>
-        <Col>
+        <Col className='d-flex justify-content-center'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/64GqVAwZzJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Col>
       </Row>
       <Row className='mt-3'>
-        <Col>
+        <Col className='d-flex justify-content-center'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/n6qPn_YTcBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Col>
-        <Col>
+        <Col className='d-flex justify-content-center'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ozwYf4AdhI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Col>
       </Row>
