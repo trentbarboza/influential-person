@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import WhoPage from './Pages/WhoPage';
 import { Nav } from 'react-bootstrap';
 import WhyPage from './Pages/WhyPage';
-import PhotosPage from './Pages/PhotosPage';
+import ArtPage from './Pages/ArtPage';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Nav.Link eventKey="link-2" href='Why' className='linkText'>Why?</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link eventKey="link-3" href='Photos' className='linkText'>Photos/Art</Nav.Link>
+        <Nav.Link eventKey="link-3" href='Photos' className='linkText'>Videos/Art</Nav.Link>
         </Nav.Item>
       </Nav>
 
@@ -31,7 +31,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='Who' element={<WhoPage />} />
         <Route path='Why' element={<WhyPage />} />
-        <Route path='Photos' element={<PhotosPage />} />
+        <Route path='Photos' element={<ArtPage />} />
 
       </Routes>
 

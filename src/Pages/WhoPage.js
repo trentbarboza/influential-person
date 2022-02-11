@@ -4,6 +4,7 @@ import '../App.css';
 import gonzsitting from '../Photos/gonzsitting.jpg';
 import gonzthrasher from '../Photos/gonzthrasher.jpg';
 import gonzmanual from '../Photos/gonzmanual.png';
+import gonzart from '../Photos/gonzart.jpg';
 
 export default function WhoPage() {
   return (
@@ -30,7 +31,7 @@ export default function WhoPage() {
         <Row>
           <Col>
             <Row>
-              <h1 className='text-center mt-3 homeText'>Vision to ATM Click</h1>
+              <h2 className='text-center mt-3 homeText'>Vision to ATM Click</h2>
             </Row>
             <Row>
               <p className='descText text-left mt-3'>
@@ -44,7 +45,7 @@ export default function WhoPage() {
               </p>
             </Row>
             <Row>
-              <h1 className='text-center mt-3 homeText'>Deluxe Distribution</h1>
+              <h2 className='text-center mt-3 homeText'>Deluxe Distribution</h2>
             </Row>
             <Row>
               <p className='descText text-left mt-3'>
@@ -69,7 +70,7 @@ export default function WhoPage() {
           <Col><img src={gonzmanual} className="whoThirdPic mt-4"></img></Col>
           <Col>
             <Row>
-              <h1 className='text-center mt-4 homeText'>Influence</h1>
+              <h2 className='text-center mt-4 homeText'>Influence</h2>
             </Row>
             <Row>
               <p className='descText text-left mt-3'>
@@ -89,31 +90,27 @@ export default function WhoPage() {
         <Row>
           <Col>
             <Row>
-              <h1 className='text-center mt-3 homeText'>Art & Writing</h1>
+              <h2 className='text-center mt-3 homeText'>Art & Writing</h2>
             </Row>
             <Row>
               <p className='descText text-left mt-3'>
-                Shortly after his Thrasher magazine cover, Gonzales then joined the Vision skateboard team and attained the status of a professional skateboarder. Gonzales won the 1985 Oceanside street contest while sponsored by Vision.
+              London-based art curator Emma Reeves has explained in an introduction that she wrote for Interview magazine: "He makes art all the time, and he has been making art in some form or another for almost as long as he has been skateboarding. But it's rare to see an actual show of the work". An interview that Reeves completed with Gonzales is also published in Interview and he reveals that he likes creating "zines" the most, as "it is the most free thing to do". In 2008, Drag City released a book called The Collected Fanzines that consists of reproductions of old zines that he created together with director Harmony Korine.
               </p>
               <p className='descText text-left'>
-                Gonzales proceeded to further influence the progression of street skateboarding with the 1991 Blind Skateboards video Video Days (a company he formed with Steve Rocco in 1989).
+              Gonzales was featured in the music video for the song "West Coast" by Jason Schwartzman's band, Coconut Records; the music video featured a sequence that was originally filmed in 1998 at a German museum, but was edited for the purpose of the music video with Gonzales' permission. Gonzales also directed and appears in the Coconut Records music video "Any Fun", alongside actress Chloë Sevigny and skateboarder Alex Olson.
               </p>
-              <p className='descText text-left'>
-                Gonzales left Blind after experiencing frustrations that were similar to his time with Vision and then started another company called ATM Click and followed it with a venture with Ron Chatman called 60/40 who sponsored future Menace skaters Fabian Alomar and Joey Suriel. In 1993, Gonzales created controversy after he appropriated a Vision design that was used for one of his signature model boards for an ATM Click design; Gonzales then proceeded to also use the graphic for Real and Krooked signature skateboard models following his move to Deluxe Distribution.
+              <p className='descText text-left mb-5'>
+              In 2011, Gonzales designed and painted the London Flagship Supreme (brand) Store. Gonzales would send letters to the New York store entitled “Supream” during the early years of the brand. This led to many collaborations with Gonzales and Supreme, with the latest being in the S/S21 collection. Gonzales has designed sculptures and paintings for Supreme's retail locations in New York (Manhattan), San Francisco, London, Paris, Tokyo (Shibuya), Nagoya, and Osaka.
               </p>
             </Row>
           </Col>
           <Col xs="auto">
             <Row>
-              <img src={gonzthrasher} className="whoSecondPic mt-4"></img>
+              <img src={gonzart} className="whoFourthPic mt-4"></img>
             </Row>
           </Col>
         </Row>
       </Col>
-
-
-
-
     </Container>
 
 
